@@ -1,0 +1,16 @@
+Client PowerShell Execution
+      |
+      v
++-----------------+
+| Process Creation | --> Event ID 4688
++-----------------+
+      |
+      v
++-----------------+
+| LDAP Queries     | --> Event ID 4662
++-----------------+
+      |
+      v
++---------------------+
+| Script Block Logging | --> Event ID 4104
++---------------------+
